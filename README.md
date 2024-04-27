@@ -12,3 +12,14 @@ Ans: In the "Pull requests" tab/section, click the button "New pull request", co
 d. Give me a step by step guide on how to add someone to your repository.
 Ans: In the "Settings" tab/section, choose Collaborators in the left pane, click the button "Add people", seach the name and add the right reviewers to enable the access for them.
 
+e. What is the difference between git and GitHub?
+Ans: Git is a version control system that lets the developer/team manage and keep track of the source code history. GitHub is a cloud-based hosting service that let the developer/team manage Git repositories.
+
+f. What does git diff do?
+Ans: It is a git command with the same function to that on GitHub UI, which helps the developer/team to see, compare, and understand changes in the project. It can be used in many different situations, e.g. to look at current changes in the working copy, past changes in commits, or even to compare branches
+
+g. What is the main branch?
+Ans: By default, GitHub names the default branch main for new repository, i.e. initial branch that Git checks out locally when someone clones the repository. Unless specify a different branch, it is the base branch for new pull requests and code commits. 
+
+h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+Ans: No, it is NOT a best practice and probably cause a big chaos later on, particularly in a large software engineering project. The right approach is to create a working branch for new changes, create a pull request instead, and invite more than one reviewers to perform the review and approve accordingly, then merge into main branch.
